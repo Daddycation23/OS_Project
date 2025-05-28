@@ -1,5 +1,4 @@
 #!/bin/bash
-# Bash script to find the largest number in an array
 arr=(3 1 4 1 5 9 2 6 5) # testing array
 largest=${arr[0]} # initialise largest number
 for num in "${arr[@]}"; do # for loop to iterate through the array
